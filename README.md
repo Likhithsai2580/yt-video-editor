@@ -155,7 +155,7 @@ Contributions are welcome! Please follow these steps:
 
 ## License
 
-[Your chosen license]
+This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
