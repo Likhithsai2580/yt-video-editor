@@ -21,7 +21,7 @@ A powerful Python-based tool for automated video processing, including transcrip
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/video-processor.git
+   git clone https://github.com/Likhithsai2580/video-processor.git
    cd video-processor
    ```
 
