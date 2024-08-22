@@ -1,0 +1,100 @@
+{
+    "transitions": [
+      {
+        "name": "a_roll_transition",
+        "description": "Creates a roll transition effect by scrolling the first clip vertically before transitioning to the second clip.",
+        "output_file": "roll_transition.mp4"
+      },
+      {
+        "name": "b_roll_transition",
+        "description": "Overlays a B-roll clip onto the main clip, positioned and resized to match the main clip.",
+        "output_file": "b_roll_transition.mp4"
+      },
+      {
+        "name": "crossfade_transition",
+        "description": "Applies a crossfade effect between two clips using crossfadein and crossfadeout effects.",
+        "output_file": "crossfade_transition.mp4"
+      },
+      {
+        "name": "fade_transition",
+        "description": "Applies a fade-out effect to the first clip and a fade-in effect to the second clip.",
+        "output_file": "fade_transition.mp4"
+      },
+      {
+        "name": "slide_transition",
+        "description": "Creates a horizontal slide transition by scrolling the first clip out and the second clip in.",
+        "output_file": "slide_transition.mp4"
+      },
+      {
+        "name": "wipe_transition",
+        "description": "Implements a simple wipe transition effect. This needs adjustment for the desired result.",
+        "output_file": "wipe_transition.mp4"
+      },
+      {
+        "name": "zoom_transition",
+        "description": "Zooms in on the first clip while zooming out on the second clip to create a zoom transition effect.",
+        "output_file": "zoom_transition.mp4"
+      },
+      {
+        "name": "split_transition",
+        "description": "Splits the first clip into parts and reveals the second clip through those parts. This implementation needs completion.",
+        "output_file": "split_transition.mp4"
+      },
+      {
+        "name": "circle_reveal_transition",
+        "description": "Uses a circular mask to reveal the second clip from the center outward.",
+        "output_file": "circle_reveal_transition.mp4"
+      },
+      {
+        "name": "page_turn_transition",
+        "description": "Creates a page turn effect using a mosaic-like transition.",
+        "output_file": "page_turn_transition.mp4"
+      },
+      {
+        "name": " light_leak_transition",
+        "description": "Adds a light leak effect between two clips using a pre-existing light leak video.",
+        "output_file": "light_leak_transition.mp4"
+      },
+      {
+        "name": "inverted_colors_transition",
+        "description": "Creates an effect by inverting the colors of the first clip before transitioning to the second clip.",
+        "output_file": "inverted_colors_transition.mp4"
+      },
+      {
+        "name": "dissolve_transition",
+        "description": "Applies a dissolve effect by fading out the first clip and fading in the second clip.",
+        "output_file": "dissolve_transition.mp4"
+      },
+      {
+        "name": "rotate_transition",
+        "description": "Rotates the first clip while transitioning to the second clip.",
+        "output_file": "rotate_transition.mp4"
+      },
+      {
+        "name": "diagonal_wipe_transition",
+        "description": "Creates a diagonal wipe effect to transition between two clips.",
+        "output_file": "diagonal_wipe_transition.mp4"
+      },
+      {
+        "name": "heart_shape_transition",
+        "description": "Uses a heart-shaped mask to transition between two clips. This implementation needs adjustments to handle masks and opacity correctly.",
+        "output_file": "heart_shape_transition.mp4"
+      },
+      {
+        "name": "film_roll_transition",
+        "description": "Rolls the first clip out vertically and transitions to the second clip.",
+        "output_file": "film_roll_transition.mp4"
+      },
+      {
+        "name": "ripple_transition",
+        "description": "Applies a ripple effect to the first clip before transitioning to the second.",
+        "output_file": "ripple_transition.mp4"
+      },
+      {
+        "name": "starfield_transition",
+        "description": "Creates a starfield effect before transitioning to the second clip.",
+        "output_file": "starfield_transition.mp4"
+      }
+    ]
+  }
+  

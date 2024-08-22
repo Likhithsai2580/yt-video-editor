@@ -1,0 +1,175 @@
+{
+    "effects": [
+      {
+        "name": "fadein",
+        "description": "Gradually increases the opacity of the video from 0% to 100% over the specified duration.",
+        "parameters": {
+          "duration": "Duration in seconds for the fade-in effect."
+        }
+      },
+      {
+        "name": "fadeout",
+        "description": "Gradually decreases the opacity of the video from 100% to 0% over the specified duration.",
+        "parameters": {
+          "duration": "Duration in seconds for the fade-out effect."
+        }
+      },
+      {
+        "name": "invert_colors",
+        "description": "Inverts the colors of the video, creating a negative effect.",
+        "parameters": {}
+      },
+      {
+        "name": "colorx",
+        "description": "Adjusts the color intensity of the video by multiplying the color values.",
+        "parameters": {
+          "factor": "Multiplier for color intensity. Values >1 increase color intensity, values <1 decrease it."
+        }
+      },
+      {
+        "name": "lum_contrast",
+        "description": "Adjusts the luminance and contrast of the video.",
+        "parameters": {
+          "lum": "Amount of luminance adjustment.",
+          "contrast": "Amount of contrast adjustment."
+        }
+      },
+      {
+        "name": "brightness",
+        "description": "Adjusts the brightness of the video.",
+        "parameters": {
+          "factor": "Multiplier for brightness. Values >1 increase brightness, values <1 decrease it."
+        }
+      },
+      {
+        "name": "blackwhite",
+        "description": "Converts the video to black and white.",
+        "parameters": {}
+      },
+      {
+        "name": "rotate",
+        "description": "Rotates the video by a specified angle.",
+        "parameters": {
+          "angle": "Angle in degrees to rotate the video."
+        }
+      },
+      {
+        "name": "resize",
+        "description": "Resizes the video to a specified width and height.",
+        "parameters": {
+          "new_size": "Tuple (width, height) specifying the new size of the video."
+        }
+      },
+      {
+        "name": "scroll",
+        "description": "Scrolls the video in a specified direction.",
+        "parameters": {
+          "speed": "Speed of the scrolling effect."
+        }
+      },
+      {
+        "name": "crop",
+        "description": "Crops the video to a specified rectangular area.",
+        "parameters": {
+          "x1": "Left boundary of the crop area.",
+          "x2": "Right boundary of the crop area.",
+          "y1": "Top boundary of the crop area.",
+          "y2": "Bottom boundary of the crop area."
+        }
+      },
+      {
+        "name": "mirror_x",
+        "description": "Mirrors the video horizontally.",
+        "parameters": {}
+      },
+      {
+        "name": "mirror_y",
+        "description": "Mirrors the video vertically.",
+        "parameters": {}
+      },
+      {
+        "name": "speedx",
+        "description": "Adjusts the speed of the video playback.",
+        "parameters": {
+          "factor": "Multiplier for speed. Values >1 speed up playback, values <1 slow it down."
+        }
+      },
+      {
+        "name": "fadeinout",
+        "description": "Applies both fade-in and fade-out effects to the video.",
+        "parameters": {
+          "duration": "Duration in seconds for both fade-in and fade-out effects."
+        }
+      },
+      {
+        "name": "clip_duration",
+        "description": "Sets the duration of the video clip to a specified length.",
+        "parameters": {
+          "duration": "New duration in seconds for the video clip."
+        }
+      },
+      {
+        "name": "crop_center",
+        "description": "Crops the video to a specified center point and size.",
+        "parameters": {
+          "x_center": "X-coordinate of the center point.",
+          "y_center": "Y-coordinate of the center point.",
+          "width": "Width of the cropped area.",
+          "height": "Height of the cropped area."
+        }
+      },
+      {
+        "name": "add_text",
+        "description": "Adds text overlay to the video at the center.",
+        "parameters": {
+          "text": "Text to overlay on the video."
+        }
+      },
+      {
+        "name": "vignette",
+        "description": "Applies a vignette effect that darkens the edges of the video.",
+        "parameters": {
+          "radius": "Radius of the vignette effect."
+        }
+      },
+      {
+        "name": "color_filter",
+        "description": "Applies a color filter to the video.",
+        "parameters": {
+          "factor": "Multiplier for color filtering."
+        }
+      },
+      {
+        "name": "clip_speed",
+        "description": "Adjusts the playback speed of the video clip.",
+        "parameters": {
+          "factor": "Multiplier for speed adjustment."
+        }
+      },
+      {
+        "name": "resize_aspect_ratio",
+        "description": "Resizes the video while preserving the aspect ratio.",
+        "parameters": {
+          "width": "New width of the video. Height will be adjusted to preserve the aspect ratio."
+        }
+      },
+      {
+        "name": "edge_detection",
+        "description": "Applies an edge detection filter to the video.",
+        "parameters": {}
+      },
+      {
+        "name": "zoom",
+        "description": "Applies a zoom effect to the video.",
+        "parameters": {}
+      },
+      {
+        "name": "saturation",
+        "description": "Adjusts the saturation of the video.",
+        "parameters": {
+          "factor": "Multiplier for saturation. Values >1 increase saturation, values <1 decrease it."
+        }
+      }
+    ]
+  }
+  
