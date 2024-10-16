@@ -71,7 +71,7 @@ class VideoProcessor:
         try:
             with sr.AudioFile(audio_path) as source:
                 audio = recognizer.record(source)
-            response = recognizer.recognize_google(audio, show_all=True)
+            response = recognizer.recognize_google_cloud(audio, show_all=True)
             results = response.get('results', [])
             for result in results:
                 alternatives = result.get('alternatives', [])
@@ -82,15 +82,15 @@ class VideoProcessor:
                         timestamps.append((alternative['timestamp'][0], alternative['timestamp'][1]))
             logging.info(f"Transcription completed. Detected language: {response.get('language', 'Unknown')}")
         except sr.UnknownValueError:
-            logging.warning("Google Web Speech API could not understand audio")
+            logging.warning("Google Cloud Speech API could not understand audio")
         except sr.RequestError as e:
-            logging.error(f"Could not request results from Google Web Speech API; {e}")
+            logging.error(f"Could not request results from Google Cloud Speech API; {e}")
         return transcript.strip(), timestamps
 
     def translate_text(self, text: str, dest_language: str = 'en') -> str:
         try:
-            translation = self.translator.translate(text, dest=dest_language)
-            return translation.text
+            translations = self.translator.translate([text], dest=dest_language)
+            return ' '.join([translation.text for translation in translations])
         except Exception as e:
             logging.error(f"Error in translation: {e}")
             return text
