@@ -166,4 +166,3 @@ class TransitionEffects:
             return CompositeVideoClip([starfield, clip1.set_opacity(0.5)])
         final_clip = starfield_effect(starfield_duration)
         return CompositeVideoClip([final_clip, clip2.set_start(starfield_duration / 2)], size=clip1.size)
-

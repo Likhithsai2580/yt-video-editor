@@ -11,9 +11,15 @@ messages = {
     "content": "You need to perform the task given by the user"
     }
 
+cache = {}
+
 def LLM(prompt):
-    time.sleep(5)
     global messages
+    if prompt in cache:
+        return cache[prompt]
+    
+    time.sleep(5)
+    
     # Append user message to messages list
     messages.append({"role": "system", "content": prompt})
 
@@ -29,6 +35,7 @@ def LLM(prompt):
         # Append assistant message to messages list
         messages.append({"role": "assistant", "content": ms})
 
+        cache[prompt] = ms
         return ms
     except Exception as e:
         print(f"An error occurred: {e}")
